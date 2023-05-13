@@ -87,23 +87,30 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+body{
+  display: flex;
+  justify-content: center;
+}
+
 .content-wrapper {
   width: 90%;
   display: flex;
   flex-flow: row wrap;
+  justify-content: center;
 }
 
 .top {
   width: 100%;
   padding: 0;
   margin: 30px 20px 10px 20px;
+  display: flex;
+  justify-content: center;
 }
 
 .top h1 {
   text-align: center;
   font-family: 'Pacifico', cursive;
   font-size: 40px;
-  /* text-transform: uppercase; */
   line-height: 0;
 }
 
@@ -119,6 +126,82 @@ textarea {
   text-align: center;
   padding: 8px;
   margin: 0;
+  width: 100%;
+}
+
+.button-bank {
+  display: flex;
+  flex-flow: row wrap;
+  width: 100%;
+  justify-content: center;
+}
+
+.buttons{
+  font-family: 'Patrick Hand', cursive;
+  color: white;
+  padding: 8px;
+  border: none;
+  border-radius: 10px;
+  width: 100px;
+  margin: 5px;
+}
+
+.red {
+  background: rgb(222, 2, 2);
+}
+
+.light-pink {
+  background: rgb(252, 154, 200);
+}
+
+.dark-pink {
+  background: rgb(224, 3, 121);
+}
+
+.orange {
+  background: rgb(241, 137, 25);
+}
+
+.light-yellow {
+  background: rgb(232, 213, 7);
+}
+
+.gold {
+  background: rgb(211, 173, 2);
+}
+
+.lavender {
+  background: rgb(240, 149, 250);
+}
+
+.dark-purple {
+  background: rgb(123, 2, 160);
+}
+
+.flower-garden {
+  border: 10px double black;
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+}
+
+i {
+  padding: 10px;
+}
+
+.buttons-bottom {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  flex-flow: row wrap;
+}
+
+.undo {
+  background: rgb(154, 220, 12);
+}
+
+.clear {
+  background: rgb(77, 134, 3);
 }
 
 
