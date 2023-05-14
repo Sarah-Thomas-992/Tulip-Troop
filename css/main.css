@@ -102,7 +102,7 @@ body{
 .top {
   width: 100%;
   padding: 0;
-  margin: 30px 20px 10px 20px;
+  margin: 30px 20px 5px 20px;
   display: flex;
   justify-content: center;
 }
@@ -110,13 +110,13 @@ body{
 .top h1 {
   text-align: center;
   font-family: 'Pacifico', cursive;
-  font-size: 40px;
+  font-size: 30px;
   line-height: 0;
 }
 
 .instructions {
   width: 100%;
-  margin: 5px 20px 10px 20px;
+  margin: 5px 20px 5px 20px;
 }
 
 .instructions p{
@@ -134,11 +134,13 @@ body{
   flex-flow: row wrap;
   width: 100%;
   justify-content: center;
+  margin: 10px 0 20px 0;
 }
 
 .buttons{
   font-family: 'Patrick Hand', cursive;
   color: white;
+  font-size: 16px;
   padding: 8px;
   border: none;
   border-radius: 10px;
@@ -146,62 +148,66 @@ body{
   margin: 5px;
 }
 
-.red {
-  background: rgb(222, 2, 2);
+.light-green {
+  background: rgb(170, 210, 122);
 }
 
-.light-pink {
-  background: rgb(252, 154, 200);
+.medium-green {
+  background: rgb(102, 161, 72);
+}
+
+.dark-green {
+  background: rgb(38, 104, 7);
 }
 
 .dark-pink {
   background: rgb(224, 3, 121);
 }
 
-.orange {
-  background: rgb(241, 137, 25);
+.light-pink {
+  background: rgb(241, 164, 177);
 }
 
-.light-yellow {
-  background: rgb(232, 213, 7);
-}
-
-.gold {
-  background: rgb(211, 173, 2);
+.turquoise {
+  background: rgb(32, 227, 217);
 }
 
 .lavender {
-  background: rgb(240, 149, 250);
+  background: rgb(212, 147, 225);
 }
 
 .dark-purple {
   background: rgb(123, 2, 160);
 }
 
-.flower-garden {
+.light-blue {
+  background: rgb(110, 188, 226);
+}
+
+.trees {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
   border: 10px double black;
+  width: 100%;
+  padding: 0;
+}
+
+.trees ul{
+  padding: 0;
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
 }
 
-i {
+.trees ul li{
+  list-style-type: none;
+  display: inline-block;
+}
+
+.tree-icons i {
   padding: 10px;
-}
-
-.buttons-bottom {
-  display: flex;
-  width: 100%;
-  justify-content: space-around;
-  flex-flow: row wrap;
-}
-
-.undo {
-  background: rgb(154, 220, 12);
-}
-
-.clear {
-  background: rgb(77, 134, 3);
+  font-size: 50px;
 }
 
 

@@ -1,23 +1,72 @@
-Dark Pink  
-<i class="fa-duotone fa-flower-tulip" style="--fa-primary-color: #ff217c; --fa-secondary-color: #c3d117; --fa-secondary-opacity: 1;"></i>
+const lightGreenButton = document.querySelector(".light-green");
+const medGreenButton = document.querySelector(".medium-green");
+const darkGreenButton = document.querySelector(".dark-green");
+const lightPinkButton = document.querySelector(".light-pink");
+const darkPinkButton = document.querySelector(".dark-pink");
+const turquoiseButton = document.querySelector(".turquoise");
+const lightBlueButton = document.querySelector(".light-blue");
+const lavenderButton = document.querySelector(".lavender");
+const darkPurpleButton = document.querySelector(".dark-purple");
+const trees = document.querySelector(".tree-icons");
 
-Light Pink 
-<i class="fa-duotone fa-flower-tulip" style="--fa-primary-color: #ffa7d0; --fa-secondary-color: #c3d117; --fa-secondary-opacity: 1;"></i>
+lightGreenButton.addEventListener("click", function(){
+    const lgTree = document.createElement("li");
+    lgTree.innerHTML = `<i class="fa-solid fa-tree" style="color: #aad27a;"></i>`;
+    trees.append(lgTree);
+});
 
-Light Yellow 
-<i class="fa-duotone fa-flower-tulip" style="--fa-primary-color: #ffe61e; --fa-secondary-color: #c3d117; --fa-secondary-opacity: 1;"></i>
+medGreenButton.addEventListener("click", function(){
+    const mgTree = document.createElement("li");
+    mgTree.innerHTML = `<i class="fa-solid fa-tree" style="color: #66a148;"></i>`;
+    trees.append(mgTree);
+});
 
-Gold 
-<i class="fa-duotone fa-flower-tulip" style="--fa-primary-color: #ecb500; --fa-secondary-color: #c3d117; --fa-secondary-opacity: 1;"></i>
+darkGreenButton.addEventListener("click", function(){
+    const dgTree = document.createElement("li");
+    dgTree.innerHTML = `<i class="fa-solid fa-tree" style="color: #266807;"></i>`;
+    trees.append(dgTree);
+});
 
-Lavender 
-<i class="fa-duotone fa-flower-tulip" style="--fa-primary-color: #d6b1ff; --fa-secondary-color: #c3d117; --fa-secondary-opacity: 1;"></i>
+lightPinkButton.addEventListener("click", function(){
+    const pinkTree2 = document.createElement("li");
+    pinkTree2.innerHTML = `<i class="fa-solid fa-tree" style="color: #ffb3cd;"></i>`;
+    trees.append(pinkTree2);
+});
 
-Dark Purple 
-<i class="fa-duotone fa-flower-tulip" style="--fa-primary-color: #9e00da; --fa-secondary-color: #c3d117; --fa-secondary-opacity: 1;"></i>
+darkPinkButton.addEventListener("click", function(){
+    const pinkTree1 = document.createElement("li");
+    pinkTree1.innerHTML = `<i class="fa-solid fa-tree" style="color: #e00379;"></i>`;
+    trees.append(pinkTree1);
+});
 
-Red 
-<i class="fa-duotone fa-flower-tulip" style="--fa-primary-color: #e40020; --fa-secondary-color: #c3d117; --fa-secondary-opacity: 1;"></i>
+turquoiseButton.addEventListener("click", function(){
+    const turTree = document.createElement("li");
+    turTree.innerHTML = `<i class="fa-solid fa-tree" style="color: #20e3d9;"></i>`;
+    trees.append(turTree);
+});
 
-Orange 
-<i class="fa-duotone fa-flower-tulip" style="--fa-primary-color: #f09539; --fa-secondary-color: #c3d117; --fa-secondary-opacity: 1;"></i>
+lightBlueButton.addEventListener("click", function(){
+    const lbTree = document.createElement("li");
+    lbTree.innerHTML = `<i class="fa-solid fa-tree" style="color: #6ebce2;"></i>`;
+    trees.append(lbTree);
+});
+
+lavenderButton.addEventListener("click", function(){
+    const lavTree = document.createElement("li");
+    lavTree.innerHTML = `<i class="fa-solid fa-tree" style="color: #d493e1;"></i>`;
+    trees.append(lavTree);
+});
+
+darkPurpleButton.addEventListener("click", function(){
+    const dpTree = document.createElement("li");
+    dpTree.innerHTML = `<i class="fa-solid fa-tree" style="color: #7b02a0;"></i>`;
+    trees.append(dpTree);
+});
+
+
+
+
+
+
+
+
